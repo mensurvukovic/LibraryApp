@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Date;
+import java.util.Scanner;
 
-public class LiberyApp {
+public class LibraryApp {
 
 	static Scanner input = new Scanner(System.in);
 	private static Account acount;
@@ -260,7 +261,7 @@ public class LiberyApp {
 	}
 
 	public static void backToMeni() {
-		LiberyApp.main(null);
+		LibraryApp.main(null);
 	}
 
 	public static Account getAcount() {
@@ -268,7 +269,7 @@ public class LiberyApp {
 	}
 
 	public static void setAcount(Account acount) {
-		LiberyApp.acount = acount;
+		LibraryApp.acount = acount;
 	}
 
 	public static Book getBook() {
@@ -276,7 +277,7 @@ public class LiberyApp {
 	}
 
 	public static void setBook(Book book) {
-		LiberyApp.book = book;
+		LibraryApp.book = book;
 	}
 
 	public static Borrowed getBorrowed() {
@@ -284,6 +285,6 @@ public class LiberyApp {
 	}
 
 	public static void setBorrowed(Borrowed borrowed) {
-		LiberyApp.borrowed = borrowed;
+		LibraryApp.borrowed = borrowed;
 	}
 }
